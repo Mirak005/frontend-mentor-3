@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- BACKROUND -->
+      <!-- <img src="./images/bg-pattern-intro.svg" alt="" /> -->
+
+      <nav>
+        <!-- LOGO -->
+        <div id="logo"><img src="./images/logo.svg" alt="Blogr" /></div>
+        <!-- PRODUCT -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#">Product</a> <img src="./images/icon-arrow-light.svg" />
+            <ul class="drop-menu">
+              <li><a href="#"> Overview </a></li>
+              <li><a href="#"> Pricing </a></li>
+              <li><a href="#"> Marketplace </a></li>
+              <li><a href="#"> Features </a></li>
+              <li><a href="#"> Integrations </a></li>
+            </ul>
+          </li>
+
+          <!-- COMPANY -->
+          <li class="nav-item">
+            <a href="#">Company</a> <img src="./images/icon-arrow-light.svg" />
+            <ul class="drop-menu">
+              <li><a href="#"> About </a></li>
+              <li><a href="#"> Team </a></li>
+              <li><a href="#"> Blog </a></li>
+              <li><a href="#"> Careers </a></li>
+            </ul>
+          </li>
+
+          <!-- CONNECT -->
+          <li class="nav-item">
+            <a href="#">Connect</a> <img src="./images/icon-arrow-light.svg" />
+            <ul class="drop-menu">
+              <li><a href="#"> Contact </a></li>
+              <li><a href="#"> Newsletter </a></li>
+              <li><a href="#"> LinkedIn </a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="pill-button">Login</button>
+          <button class="hover-bg-light pill-button bg-white text-red">
+            Sign Up
+          </button>
+        </div>
+
+        <!-- Burger menu -->
+        <div>
+          <input type="checkbox" id="burger-action" />
+          <label for="burger-action">
+            <img id="burger-btn" src="./images/icon-hamburger.svg" alt="menu" />
+            <img id="burger-btn-close" src="./images/icon-close.svg" />
+          </label>
+          <ul class="responsive-menu">
+            <li class="nav-item">
+              <a href="#">Product</a>
+              <img src="./images/icon-arrow-dark.svg" />
+              <ul class="drop-menu">
+                <li><a href="#"> Overview </a></li>
+                <li><a href="#"> Pricing </a></li>
+                <li><a href="#"> Marketplace </a></li>
+                <li><a href="#"> Features </a></li>
+                <li><a href="#"> Integrations </a></li>
+              </ul>
+            </li>
+
+            <!-- COMPANY -->
+            <li class="nav-item">
+              <a href="#">Company</a>
+              <img src="./images/icon-arrow-dark.svg" />
+              <ul class="drop-menu">
+                <li><a href="#"> About </a></li>
+                <li><a href="#"> Team </a></li>
+                <li><a href="#"> Blog </a></li>
+                <li><a href="#"> Careers </a></li>
+              </ul>
+            </li>
+
+            <!-- CONNECT -->
+            <li class="nav-item">
+              <a href="#">Connect</a>
+              <img src="./images/icon-arrow-dark.svg" />
+              <ul class="drop-menu">
+                <li><a href="#"> Contact </a></li>
+                <li><a href="#"> Newsletter </a></li>
+                <li><a href="#"> LinkedIn </a></li>
+              </ul>
+            </li>
+
+            <li class="responsive-nav-action">
+              <button class="pill-button">Login</button>
+              <button class="pill-button">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="introduction">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+
+        <div>
+          <button class="hover-bg-light pill-button bg-white text-red">
+            Start For Free
+          </button>
+          <button class="pill-button border-white hover-bg-white">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION 1 -->
+    <section class="desc-section">
+      <h1 class="section-title">Designed for the future</h1>
+      <div class="description-container">
+        <div>
+          <div class="desc-card">
+            <h3 class="paragraphe-title">
+              Introducing an extensible editor Blogr
+            </h3>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="desc-card">
+            <h3 class="paragraphe-title">Robust content management</h3>
+            <p>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+        <div class="illustration">
+          <img src="./images/illustration-editor-desktop.svg" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
